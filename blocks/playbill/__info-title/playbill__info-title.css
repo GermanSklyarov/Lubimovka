@@ -1,0 +1,8 @@
+.playbill__info-title {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 58px;
+    margin-left: 29px;
+    margin-bottom: 20px;
+    max-width: max-content;
+}

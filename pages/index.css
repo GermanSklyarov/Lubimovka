@@ -1,3 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+
+/*playbill*/
+@import url(../blocks/playbill/playbill.css);
+@import url(../blocks/playbill/__authors/playbill__authors.css);
+@import url(../blocks/playbill/__info/playbill__info.css);
+@import url(../blocks/playbill/__info-age/playbill__info-age.css);
+@import url(../blocks/playbill/__info-time/playbill__info-time.css);
+@import url(../blocks/playbill/__info-title/playbill__info-title.css);
+@import url(../blocks/playbill/__name/playbill__name.css);
+@import url(../blocks/playbill/__role/playbill__role.css);
