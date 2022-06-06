@@ -11,3 +11,6 @@
 @import url(../blocks/playbill/__info-title/playbill__info-title.css);
 @import url(../blocks/playbill/__name/playbill__name.css);
 @import url(../blocks/playbill/__role/playbill__role.css);
+@import url(../blocks/playbill/__description/playbill__description.css);
+@import url(../blocks/playbill/__description-paragraph/playbill__description-paragraph.css);
+@import url(../blocks/playbill/__list-item/playbill__list-item.css);

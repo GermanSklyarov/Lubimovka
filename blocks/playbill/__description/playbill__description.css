@@ -1,0 +1,15 @@
+.playbill__description {
+    max-width: 365px;
+    margin: 0 auto;
+    color: #242424;
+    letter-spacing: -0.01em;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: 320px) {
+    .playbill__description {
+        font-size: 18px;
+    }
+}
