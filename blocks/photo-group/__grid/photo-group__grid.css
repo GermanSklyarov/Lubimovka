@@ -1,0 +1,27 @@
+.photo-group__grid {
+  width: 100%;
+  display: grid;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 374px) {
+  .photo-group__grid {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 999px) {
+  .photo-group__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px 3px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .photo-group__grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1px;
+  }
+}
+

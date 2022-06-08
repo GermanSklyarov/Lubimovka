@@ -1,3 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/photo-group/photo-group.css);
+@import url(../blocks/photo-group/__title/photo-group__title.css);
+@import url(../blocks/photo-group/__grid/photo-group__grid.css);
+@import url(../blocks/photo-group/__item/photo-group__item.css);
