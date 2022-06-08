@@ -7,3 +7,10 @@
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/header/__burger/_item/header__burger_item.css);
+
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__subtitle/project__subtitle.css);
+@import url(../blocks/project/__date/project__date.css);
+@import url(../blocks/project/__button/project__button.css);
+@import url(../blocks/project/__img/project__img.css);
+@import url(../blocks/project/__subtitle/_story/project__subtitle_story.css);

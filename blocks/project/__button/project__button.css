@@ -1,0 +1,13 @@
+.project__button{
+  width: 240px;
+  height: 56px;
+  background: #E5E5E5;
+  background-image: url(../../../images/Project-ticket-union.svg);
+  background-repeat: no-repeat;
+  background-position: right 22px center;
+  background-size: 21px 13px;
+  text-align: left;
+  padding: 0 0 0 16px;
+  border: 1px solid #000000;
+  margin: 0 0 38px 85px;
+}
