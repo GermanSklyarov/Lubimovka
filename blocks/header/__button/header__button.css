@@ -1,0 +1,16 @@
+.header__button{
+  width: 115px;
+  height: 32px;
+  padding: 0;
+  background: #E5E5E5;
+  background-image: url(../../../images/Header-projects-union.svg);
+  background-repeat: no-repeat;
+  background-position: right, center;
+  background-size: 21px 13px;
+  text-align: left;
+  padding-left: 8px;
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
+  border-top: none;
+  border-left: none;
+}
