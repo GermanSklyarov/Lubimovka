@@ -1,7 +1,6 @@
 .photo-group__grid {
   width: 100%;
   display: grid;
-  box-sizing: border-box;
 }
 
 @media screen and (max-width: 374px) {

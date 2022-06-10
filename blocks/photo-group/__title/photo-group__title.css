@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 767px) {
   .photo-group__title {
-    max-width: 90%;
-    margin: 0 auto 22px;
+    max-width: 89%;
+    margin: 0 auto 24px;
     font-size: 28px;
     line-height: 32px;
   }
@@ -27,7 +27,7 @@
 @media screen and (min-width: 1440px) {
   .photo-group__title {
     max-width: 25%;
-    margin: 0 0 40px 25%;
+    margin: 0 0 45px 25%;
     font-size: 40px;
     line-height: 40px;
   }
