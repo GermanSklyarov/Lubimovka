@@ -6,3 +6,15 @@
     margin-bottom: 20px;
     max-width: max-content;
 }
+
+@media screen and (min-width: 1024px) {
+    .playbill__info-title {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .playbill__info-title {
+        padding-top: 68px;
+    }
+}

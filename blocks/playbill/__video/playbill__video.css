@@ -1,0 +1,38 @@
+.playbill__video {
+    background-size: cover;
+    width: 320px;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 1280px) {
+    .playbill__video {
+        width: 691px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .playbill__video {
+        width: 477px;
+    }
+}
+
+@media screen and (max-width: 1023px ) {
+    .playbill__video {
+        width: 691px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .playbill__video {
+        margin-top: 68px;
+        width: 366px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .playbill__video {
+        width: 320px;
+    }
+}

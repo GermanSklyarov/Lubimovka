@@ -1,6 +1,12 @@
 .playbill__info {
 }
 
+@media screen and (min-width: 1024px) {
+    .playbill__info {
+        margin-top: 68px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .playbill__info {
         background-color: #ffffff;
