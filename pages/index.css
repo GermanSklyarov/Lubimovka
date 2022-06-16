@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
-
 /*playbill*/
 @import url(../blocks/playbill/playbill.css);
 @import url(../blocks/playbill/__authors/playbill__authors.css);
@@ -15,7 +14,6 @@
 @import url(../blocks/playbill/__description-paragraph/playbill__description-paragraph.css);
 @import url(../blocks/playbill/__list-item/playbill__list-item.css);
 @import url(../blocks/playbill/__video/playbill__video.css);
-
 /*read-play*/
 @import url(../blocks/read-play/read-play.css);
 @import url(../blocks/read-play/__author/read-play__author.css);
@@ -26,3 +24,7 @@
 @import url(../blocks/read-play/__card-info/read-play__card-info.css);
 @import url(../blocks/read-play/__card-title/read-play__card-title.css);
 @import url(../blocks/read-play/__title/read-play__title.css);
+@import url(../blocks/photo-group/photo-group.css);
+@import url(../blocks/photo-group/__title/photo-group__title.css);
+@import url(../blocks/photo-group/__grid/photo-group__grid.css);
+@import url(../blocks/photo-group/__item/photo-group__item.css);

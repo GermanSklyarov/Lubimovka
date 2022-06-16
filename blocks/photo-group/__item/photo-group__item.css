@@ -1,0 +1,23 @@
+.photo-group__item {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 374px) {
+  .photo-group__item {
+    height: calc(100vw * 0.697);
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 999px) {
+  .photo-group__item {
+    height: calc(100vw * 0.341);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .photo-group__item {
+    height: calc(100vw * 0.174);
+  }
+}
