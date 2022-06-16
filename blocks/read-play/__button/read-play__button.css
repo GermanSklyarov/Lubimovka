@@ -1,0 +1,23 @@
+.read-play__button {
+    background-color: #B7C09D;
+    border: none;
+    border-top: 1px solid #242424;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 16px 0 18px 16px;
+    font-family: "Formular", "Neue Machina", sans-serif;
+    text-transform: uppercase;
+    width: 244px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-play__button:hover {
+    color: white;
+    background-color: #242424;
+    cursor: pointer;
+    stroke: white;
+    fill: white;
+}

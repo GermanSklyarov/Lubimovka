@@ -1,0 +1,35 @@
+.playbill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .playbill {
+        margin-top: 68px;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+}
+
+/*@media screen and (min-width: 768px) {*/
+/*    .playbill {*/
+
+/*    }*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
