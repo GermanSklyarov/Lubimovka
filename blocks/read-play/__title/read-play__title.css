@@ -5,3 +5,15 @@
     line-height: 32px;
     align-self: flex-start;
 }
+
+@media screen and (min-width: 769px) {
+    .read-play__title {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .read-play__title {
+        padding-left: 20px;
+    }
+}

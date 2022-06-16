@@ -14,11 +14,11 @@
     }
 }
 
-/*@media screen and (min-width: 768px) {*/
-/*    .playbill {*/
-
-/*    }*/
-/*}*/
+@media screen and (max-width: 768) {
+    .playbill {
+        padding: 0 25px;
+    }
+}
 
 
 
