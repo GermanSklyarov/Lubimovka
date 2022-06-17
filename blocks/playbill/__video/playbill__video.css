@@ -3,7 +3,8 @@
     width: 320px;
     justify-content: center;
     display: inline-block;
-    margin-top: 24px;
+    margin: 24px 0 0 0;
+    align-content: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -24,6 +25,12 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .playbill__video {
+        margin-top: 68px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .playbill__video {
         margin-top: 68px;
@@ -31,7 +38,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 378px) {
     .playbill__video {
         width: 320px;
     }
