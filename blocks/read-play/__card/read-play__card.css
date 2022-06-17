@@ -1,6 +1,11 @@
 .read-play__card {
     max-width: 244px;
-    /*margin: 0 auto;*/
     background-color: #B7C09D;
     justify-self: center;
+}
+
+@media screen and (min-width: 769px) {
+    .read-play__card {
+        margin-top: 100px;
+    }
 }
