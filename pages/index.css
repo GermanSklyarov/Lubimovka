@@ -14,6 +14,7 @@
 @import url(../blocks/playbill/__description-paragraph/playbill__description-paragraph.css);
 @import url(../blocks/playbill/__list-item/playbill__list-item.css);
 @import url(../blocks/playbill/__video/playbill__video.css);
+@import url(../blocks/playbill/__container/playbill__container.css);
 /*read-play*/
 @import url(../blocks/read-play/read-play.css);
 @import url(../blocks/read-play/__author/read-play__author.css);
