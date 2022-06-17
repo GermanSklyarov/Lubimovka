@@ -1,0 +1,19 @@
+.footer__contacts-address {
+  margin: 0;
+  padding: 0;
+  max-width: 270px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #242424;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__contacts-address {
+    max-width: 142px;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: 1;
+  }
+}

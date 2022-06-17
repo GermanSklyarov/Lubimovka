@@ -1,0 +1,17 @@
+.footer__columns {
+  margin: 56px auto 0 auto;
+  width: calc(100% - 110px);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 53px 48px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__columns {
+    grid-area: columns;
+    margin: 0 92px 49px auto;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 550px;
+  }
+}

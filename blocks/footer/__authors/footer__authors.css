@@ -1,0 +1,12 @@
+.footer__authors {
+  margin: 32px 0 0 27px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__authors {
+    grid-area: authors;
+    margin: 0 72px 0 82px;
+    display: flex;
+    align-items: center;
+  }
+}

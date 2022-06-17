@@ -1,0 +1,16 @@
+.footer__partners-text {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__partners-text {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 115px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+  }
+}
