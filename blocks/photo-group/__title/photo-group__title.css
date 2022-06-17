@@ -1,0 +1,36 @@
+.photo-group__title {
+  font-family: "Neue Machina";
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+@media screen and (max-width: 767px) {
+  .photo-group__title {
+    max-width: 89%;
+    margin: 0 auto 24px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .photo-group__title {
+    max-width: 37%;
+    margin: 0 0 30px 25%;
+    font-size: 34px;
+    line-height: 37px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .photo-group__title {
+    max-width: 25%;
+    margin: 0 0 45px 25%;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+
