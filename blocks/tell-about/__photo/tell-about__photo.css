@@ -1,0 +1,20 @@
+.tell-about__photo {
+  object-fit: cover;
+  overflow: hidden;
+  background-position: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 549px) {
+  .tell-about__photo {
+    height: calc(100vw * 0.61);
+    margin: 0 auto 4%;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .tell-about__photo {
+    height: calc(100vw * 0.28);
+    margin: 0 auto 2.6%;
+  }
+}

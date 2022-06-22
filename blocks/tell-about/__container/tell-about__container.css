@@ -1,0 +1,24 @@
+.tell-about__container {
+  display: flex;
+}
+
+@media screen and (max-width: 549px) {
+  .tell-about__container {
+    margin: 0 auto;
+    max-width: 88%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .tell-about__container {
+    max-width: 660px;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tell-about__container {
+    padding-left: 22.9%;
+  }
+}
