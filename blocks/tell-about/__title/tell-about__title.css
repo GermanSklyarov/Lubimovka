@@ -1,0 +1,16 @@
+.tell-about__title {
+  margin: 0;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+  @media screen and (min-width: 549px) {
+    .tell-about__title {
+      align-self: flex-end;
+    }
+  }
+
