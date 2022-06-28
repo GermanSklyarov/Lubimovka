@@ -1,0 +1,9 @@
+.footer__development {
+  max-width: 254px;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__development {
+    max-width: 207px;
+  }
+}

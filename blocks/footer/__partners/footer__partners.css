@@ -1,0 +1,23 @@
+.footer__partners {
+  margin-top: 84px;
+  padding: 0 24px 94px 24px;
+  border-bottom: 1px solid #242424;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__partners {
+    grid-area: partners;
+    margin-top: 6px;
+    margin-left: 82px;
+    padding: 0 0 62px 0;
+    align-items: flex-start;
+    border: none;
+    justify-content: unset;
+    gap: 30px;
+  }
+}

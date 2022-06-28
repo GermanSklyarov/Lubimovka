@@ -1,0 +1,16 @@
+.footer__partners-caption {
+  margin: 15px 0 0 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  font-feature-settings: 'ss01' on;
+  color: #242424;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer__partners-caption {
+    display: none;
+  }
+}

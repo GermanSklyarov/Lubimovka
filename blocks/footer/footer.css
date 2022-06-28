@@ -1,0 +1,14 @@
+.footer {
+  padding: 56px 0 74px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding: 42px 24px 54px 0;
+    display: grid;
+    grid-template-areas: "logo partners partners"
+      ". contacts columns"
+      ". authors authors";
+    grid-template-columns: 125px 1fr 1fr;
+  }
+}
