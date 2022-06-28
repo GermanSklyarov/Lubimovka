@@ -1,0 +1,17 @@
+.tell-about {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 549px) {
+  .tell-about {
+    width: 100%;
+    padding: 0 0 24.1%;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .tell-about {
+    width: 91.7%;
+    padding: 0 0 10.5%;
+  }
+}

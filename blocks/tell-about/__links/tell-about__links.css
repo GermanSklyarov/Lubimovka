@@ -1,0 +1,19 @@
+.tell-about__links {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+
+@media screen and (max-width: 549px) {
+  .tell-about__links {
+    margin: 10px 0 6px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .tell-about__links {
+    margin: 0 0 27px;
+  }
+}
+
