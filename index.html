@@ -6,12 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Любимовка</title>
   <link href="./pages/index.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 </head>
 
 <body class="page">
   <header class="header"></header>
   <main class="content">
-  
+
     <section class="playbill">
       <div class="playbill__info">
         <div class="playbill__info-title">
@@ -130,7 +131,99 @@
         </li>
       </ul>
     </section>
-    
+
+    <section class="reviews">
+      <div class="swiper swiper_type_critique">
+        <h2 class="swiper__title">Рецензии</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper__slide">
+            <img class="swiper__logo" src="./images/newyork-logo.svg" alt="Нью-Йорк Таймс">
+            <p class="swiper__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+              Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна
+              эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот
+              жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+              его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим
+              дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по
+              крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое
+              душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные —
+              которые притаились в каждом из нас».</p>
+            <a href="#" class="swiper__read-button" target="_blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <img class="swiper__logo" src="./images/dog-logo.svg" alt="Собака">
+            <p class="swiper__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+              Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна
+              эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот
+              жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+              его и всех вокруг. </p>
+            <a href="#" class="swiper__read-button" target="_blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <img class="swiper__logo" src="./images/newyork-logo.svg" alt="Нью-Йорк Таймс">
+            <p class="swiper__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+              Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна
+              эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот
+              жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+              его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим
+              дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по
+              крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое
+              душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные —
+              которые притаились в каждом из нас».</p>
+            <a href="#" class="swiper__read-button" target="_blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
+          </div>
+          <div class="swiper-slide swiper__slide">
+            <img class="swiper__logo" src="./images/dog-logo.svg" alt="Собака">
+            <p class="swiper__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в
+              Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна
+              эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот
+              жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать
+              его и всех вокруг. </p>
+            <a href="#" class="swiper__read-button" target="_blank">ЧИТАТЬ ПОЛНОСТЬЮ</a>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper__pagination"></div>
+        <div class="swiper-button-prev swiper__button-prev"></div>
+        <div class="swiper-button-next swiper__button-next"></div>
+      </div>
+      <div class="swiper swiper_type_reviews">
+        <h2 class="swiper__title">Отзывы зрителей</h2>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper__slide swiper__slide_type_review">
+            <blockquote class="swiper__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня
+              Боджэка
+              возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как
+              хорошо
+              все это с куклой-носочком. Так все чисто сделано!</blockquote>
+            <p class="swiper__review-author">Наталья Зайцева</p>
+          </div>
+          <div class="swiper-slide swiper__slide swiper__slide_type_review">
+            <blockquote class="swiper__text">Для самой этой истории формат читки работает отличным ироническим
+              отстранением</blockquote>
+            <p class="swiper__review-author">Дина Годер</p>
+          </div>
+          <div class="swiper-slide swiper__slide swiper__slide_type_review">
+            <blockquote class="swiper__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж,
+              что на нем
+              надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно, ведь я как
+              будто
+              сама поучаствовала в спектакле</blockquote>
+            <p class="swiper__review-author">Дарья Морозова</p>
+          </div>
+          <div class="swiper-slide swiper__slide swiper__slide_type_review">
+            <blockquote class="swiper__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня
+              Боджэка
+              возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов. И как
+              хорошо
+              все это с куклой-носочком. Так все чисто сделано!</blockquote>
+            <p class="swiper__review-author">Наталья Зайцева</p>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper__pagination swiper__pagination_type_reviews"></div>
+        <div class="swiper-button-prev swiper__button-prev"></div>
+        <div class="swiper-button-next swiper__button-next"></div>
+      </div>
+    </section>
+
     <section class="tell-about">
       <img src="./images/tell-about-play.jpg" alt="Мужчина и женщина стоят, прислонившись спиной друг к другу"
         class="tell-about__photo">
@@ -260,6 +353,8 @@
       </p>
     </div>
   </footer>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./pages/index.js"></script>
 </body>
 
 </html>

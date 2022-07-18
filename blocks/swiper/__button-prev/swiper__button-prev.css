@@ -1,0 +1,36 @@
+.swiper__button-prev.swiper-button-prev {
+  position: absolute;
+  top: 24px;
+  left: calc(100% - 146px);
+  width: 48px;
+  height: 48px;
+  color: transparent;
+  background-image: url(../../../images/arrow-left.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.swiper__button-prev.swiper-button-prev::after {
+  width: 48px;
+  height: 48px;
+  border-left: 1px solid #242424;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.swiper__button-prev.swiper-button-prev:hover {
+  filter: invert();
+  background-color: #fff;
+}
+
+.swiper__button-prev.swiper-button-prev:hover.swiper__button-prev.swiper-button-prev::after {
+  transform: rotate(-180deg);
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper__button-prev.swiper-button-prev {
+    left: calc((100% - 718px) / 2 + 598px);
+  }
+}

@@ -1,0 +1,23 @@
+.swiper__title {
+  margin: 0 0 37px 24px;
+  padding: 0;
+  max-width: 200px;
+  text-align: left;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper__title {
+    margin-bottom: 40px;
+    margin-left: calc((100% - 718px) / 2);
+    max-width: 350px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

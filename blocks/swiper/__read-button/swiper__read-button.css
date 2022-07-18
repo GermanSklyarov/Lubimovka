@@ -1,0 +1,32 @@
+.swiper__read-button {
+  position: relative;
+  padding: 10px 0 10px 28px;
+  max-width: 210px;
+  box-sizing: border-box;
+  display: block;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  color: #242424;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.swiper__read-button::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../images/arrow-up-right.svg);
+}
+
+.swiper__read-button:hover {
+  filter: invert();
+}

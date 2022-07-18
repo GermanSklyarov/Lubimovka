@@ -1,0 +1,18 @@
+.swiper__slide {
+  width: 100%;;
+  padding: 77px 26px 72px 26px;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.swiper-slide-prev, .swiper-slide-next {
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper__slide {
+    padding: 55px 88px 72px 88px;
+    max-width: 718px;
+  }
+}

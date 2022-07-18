@@ -1,0 +1,5 @@
+@media screen and (max-width: 1023px) {
+  .swiper .swiper-pagination.swiper__pagination.swiper__pagination_type_reviews {
+    top: 125px;
+  }
+}

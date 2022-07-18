@@ -1,0 +1,27 @@
+.swiper .swiper-pagination.swiper__pagination {
+  padding-left: 29px;
+  height: fit-content;
+  position: absolute;
+  top: 92px;
+  text-align: left;
+  width: fit-content;
+}
+
+.reviews .swiper .swiper-pagination .swiper-pagination-bullet {
+  margin-right: 16px;
+  background-color: transparent;
+  border: 1px solid #242424;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.reviews .swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #242424;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper .swiper-pagination.swiper__pagination {
+    top: 16px;
+    left: calc((100% - 718px) / 2 + 427px);
+  }
+}

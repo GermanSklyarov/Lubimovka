@@ -1,0 +1,21 @@
+.swiper__slide_type_review {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 37px;
+  padding-bottom: 100px;
+  min-height: 361px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper__slide_type_review {
+    max-width: 420px;
+    padding: 0 30px 24px 30px;
+  }
+
+  .swiper__slide_type_review.swiper-slide-prev,
+  .swiper__slide_type_review.swiper-slide-next {
+    opacity: 1;
+  }
+}

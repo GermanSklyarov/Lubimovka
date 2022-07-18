@@ -1,0 +1,11 @@
+.swiper__review-author {
+  padding: 0;
+  margin: 0;
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #242424;
+}

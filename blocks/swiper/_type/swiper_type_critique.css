@@ -1,0 +1,9 @@
+.swiper_type_critique {
+  margin-bottom: 76px;
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper_type_critique {
+    margin-bottom: 116px;
+  }
+}

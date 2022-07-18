@@ -1,0 +1,36 @@
+.swiper__button-next.swiper-button-next {
+  position: absolute;
+  top: 24px;
+  left: calc(100% - 75px);
+  width: 48px;
+  height: 48px;
+  color: transparent;
+  background-image: url(../../../images/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.swiper__button-next.swiper-button-next::after {
+  width: 48px;
+  height: 48px;
+  border-right: 1px solid #242424;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+.swiper__button-next.swiper-button-next:hover {
+  filter: invert();
+  background-color: #fff;
+}
+
+.swiper__button-next.swiper-button-next:hover.swiper__button-next.swiper-button-next::after {
+  transform: rotate(-180deg);
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper__button-next.swiper-button-next {
+    left: calc((100% - 718px) / 2 + 670px);
+  }
+}
